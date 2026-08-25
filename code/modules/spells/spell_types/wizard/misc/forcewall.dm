@@ -6,7 +6,7 @@
 	releasedrain = 30
 	chargedrain = 1
 	chargetime = 10
-	recharge_time = 30 SECONDS
+	recharge_time = 60 SECONDS
 	human_req = TRUE
 	warnie = "spellwarning"
 	no_early_release = TRUE
@@ -38,7 +38,7 @@
 	density = TRUE
 	max_integrity = 150
 	CanAtmosPass = ATMOS_PASS_DENSITY
-	var/timeleft = 20 SECONDS
+	var/timeleft = 15 SECONDS
 
 /obj/structure/forcefield_weak/Initialize(mapload)
 	. = ..()
